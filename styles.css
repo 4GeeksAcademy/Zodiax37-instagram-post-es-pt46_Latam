@@ -10,12 +10,13 @@ body{
 .post {
     max-width: 364px;
     border: 1px gray solid;
-    padding: 5px;
 }
 
 .div-post-header {
     display: flex;
     justify-content: space-between;
+    padding: 5px;
+    align-items: center;
 }
 
 .left-side {
@@ -48,6 +49,8 @@ body{
 .post-icons {
     display: flex;
     justify-content: space-between;
+    
+    padding: 2px;
 }
 
 .left-side-buttons {
